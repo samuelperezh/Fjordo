@@ -1,0 +1,48 @@
+body {
+    font-family: 'Avenir Next';
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.logo {
+    width: 16em;
+}
+
+.banner {
+    background: url(../img/banner.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.banner_interior {
+    text-align: center;
+    width: 100%;
+}
+
+.banner_interior img {
+    padding: 3em 0;
+}
+
+.banner_texto {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 3em;
+}
+
+.banner_texto h1 {
+    background: rgba(239, 222, 224, 0.52);
+    padding: 1em;
+    display: inline;
+    font-size: 1.4em;
+}
