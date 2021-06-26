@@ -12,6 +12,11 @@ nav ul {
     margin-bottom: 0;
 }
 
+a, a:hover, a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
 .logo {
     width: 16em;
 }
@@ -45,4 +50,57 @@ nav ul {
     padding: 1em;
     display: inline;
     font-size: 1.4em;
+}
+
+.titulos_inicio {
+    font-family: 'Cardo';
+    font-size: 2em;
+    margin-top: 2em;
+    margin-left: 5em;
+    margin-bottom: 0;
+}
+
+.linea_separador {
+    background: rgba(232, 207, 207, 0.39);
+    height: 10px;
+}
+
+.parrafo_centrado {
+    margin: 2em 20em;
+    text-align: center;
+}
+
+.parrafo_izquierda {
+    font-size: 1em;
+    margin: 0px 2em;
+}
+
+.parrafo_contacto {
+    padding: 4em;
+    margin: 4em 5em;
+    background: rgba(232, 207, 207, 0.3);
+    float: left;
+    font-weight: 600;
+    text-align: center;
+}
+
+.imagen_nosotros {
+    float: right;
+    padding: 3em 2em;
+    /* display: flex;
+    justify-content: flex-end;
+    margin-right: 2em; */
+}
+
+.banner_texto--nosotros {
+    text-align: center;
+    width: 100%;
+}
+
+.banner_texto--nosotros p {
+    background: #E8CFCF;
+    padding: 1em;
+    display: inline;
+    font-size: 1.3em;
+    letter-spacing: 0.8em;
 }
