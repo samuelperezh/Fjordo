@@ -104,3 +104,17 @@ a, a:hover, a:visited {
     font-size: 1.3em;
     letter-spacing: 0.8em;
 }
+
+
+.cont_productos{
+
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width:100%;
+    margin:10%;
+}
+
+.prod1{
+    width:60%;
+    padding:10%;
+}
