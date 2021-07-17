@@ -118,3 +118,31 @@ a, a:hover, a:visited {
     width:60%;
     padding:10%;
 }
+
+
+.padre_producto{
+
+    display:flex;
+   
+}
+
+
+.cont_izquierdo{
+    width:40%;
+    margin:10%;
+
+   
+}
+
+.cont_derecho{
+    width:30%;
+}
+
+
+.p1{
+
+    width:70%;
+   
+    
+ 
+}
