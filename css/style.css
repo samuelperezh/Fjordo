@@ -65,6 +65,16 @@ a, a:hover, a:visited {
     height: 10px;
 }
 
+.linea_separador_prod{
+    background: #4d4d54;
+    height:5px;
+    width:10%;
+
+
+}
+
+
+
 .parrafo_centrado {
     margin: 2em 20em;
     text-align: center;
@@ -111,12 +121,21 @@ a, a:hover, a:visited {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     width:100%;
-    margin:10%;
+    
+}
+
+.cont_prod_hijo{
+    justify-content: center;
+}
+
+.borgotti{
+    justify-content: center;
 }
 
 .prod1{
     width:60%;
     padding:10%;
+    justify-content: center;
 }
 
 
@@ -136,6 +155,13 @@ a, a:hover, a:visited {
 
 .cont_derecho{
     width:30%;
+    justify-content: center;
+    position:fixed;
+    top:30%;
+    left: 60%;
+    
+    
+
 }
 
 
@@ -145,4 +171,19 @@ a, a:hover, a:visited {
    
     
  
+}
+
+.parr_der{
+
+    margin:10%;
+    font-size: 20px;;
+}
+
+.logo_footer{
+    width:5%;
+    height: 5%;
+    position:fixed;
+    top:72%;
+    right:25%;
+    
 }
