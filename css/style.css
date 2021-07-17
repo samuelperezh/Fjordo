@@ -120,30 +120,37 @@ a, a:hover, a:visited {
 
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr; 
+    justify-items: center;
     width:100%;
+   
     
-}
 
-.cont_prod_hijo{
-    justify-content: center;
-}
-
-.borgotti{
-    justify-content: center;
 }
 
 .prod1{
-    width:60%;
-    padding:10%;
-    justify-content: center;
-}
-
-
-.padre_producto{
-
-    display:flex;
    
+    text-align: center;
 }
+
+
+.titulos {
+    text-align: center;
+}
+
+.img_prod{
+    
+    
+}
+
+.img_prod img{
+    width:60%;
+    padding: 10%;
+    justify-content: center;
+
+    
+}
+
 
 
 .cont_izquierdo{
