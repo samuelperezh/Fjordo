@@ -68,7 +68,12 @@ a, a:hover, a:visited {
 .linea_separador_prod{
     background: #4d4d54;
     height:5px;
-    width:10%;
+    width:50%;
+    text-align: center;
+    justify-content: center;
+    
+    
+    
 
 
 }
@@ -89,7 +94,7 @@ a, a:hover, a:visited {
     padding: 4em;
     margin: 4em 5em;
     background: rgba(232, 207, 207, 0.3);
-    float: left;
+    
     font-weight: 600;
     text-align: center;
 }
@@ -120,35 +125,41 @@ a, a:hover, a:visited {
 
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
     justify-items: center;
     width:100%;
    
-    
+}
+
+.titulos{
+    font-family: Avenir Next;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.3em;
 
 }
 
 .prod1{
-   
     text-align: center;
+    
+    
+    
 }
+
+
 
 
 .titulos {
     text-align: center;
 }
 
-.img_prod{
-    
-    
-}
+
+
 
 .img_prod img{
     width:60%;
     padding: 10%;
     justify-content: center;
-
-    
 }
 
 
@@ -156,8 +167,6 @@ a, a:hover, a:visited {
 .cont_izquierdo{
     width:40%;
     margin:10%;
-
-   
 }
 
 .cont_derecho{
@@ -167,17 +176,13 @@ a, a:hover, a:visited {
     top:30%;
     left: 60%;
     
-    
-
 }
 
 
 .p1{
 
     width:70%;
-   
-    
- 
+
 }
 
 .parr_der{
@@ -185,6 +190,34 @@ a, a:hover, a:visited {
     margin:10%;
     font-size: 20px;;
 }
+
+.footer_padre{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.parr_contactenos{
+    width:50%;
+    justify-content: center;
+    margin:20px;
+}
+
+.rrss{
+    width:50%;
+    justify-content: center;
+    margin:20px;
+  
+}
+
+.rrss img{
+
+    width:70px;
+    
+}
+
 
 .logo_footer{
     width:5%;
@@ -194,3 +227,9 @@ a, a:hover, a:visited {
     right:25%;
     
 }
+
+
+
+
+
+
